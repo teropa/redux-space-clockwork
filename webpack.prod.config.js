@@ -1,14 +1,14 @@
 module.exports = {
-  entry: ['./index.jsx'],
+  entry: ['./index.js'],
   module: {
     loaders: [{
-      test: /\.jsx?$/,
+      test: /\.js$/,
       exclude: /node_modules/,
       loader: 'babel'
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   output: {
     path: __dirname,
