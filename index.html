@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redux Clockwork</title>
+  <style type="text/css">
+    * { margin: 0; padding: 0; color: #aaa; font-size: 0.9rem; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;}
+    body { background-color: #222; overflow: hidden; }
+    a { text-decoration: none; color: #aaa; }
+    #wrap { position: fixed; top: 0; bottom: 0; left: 0; right: 0;}
+    #app { position: absolute; width: 100%; height: auto; }
+    #foot { position: fixed; bottom: 0; left: 0; right: 0; padding: 5px; text-align: right; }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="app">
+    </canvas>
+  </div>
+  <div id="foot">
+    by <a href="https://twitter.com/teropa">@teropa</a>.
+    <a href="https://github.com/teropa/redux-clockwork/blob/master/index.jsx">Source</a>.
+  </div>
+  <script src="bundle.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41475039-1', 'teropa.info');
+  ga('send', 'pageview');
+  </script>
+</body>
+</html>
